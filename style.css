@@ -1,0 +1,114 @@
+/*
+Theme Name:     The Big Facet
+Theme URI:      
+Description:    
+Author:         Timothy Wood @codearachnid
+Author URI:     http://codearachnid.com
+Version:        0.1
+*/
+body {
+  font-family: 'Orienta', sans-serif;
+}
+a:hover {
+  text-decoration: none;
+}
+body.admin-bar .navbar-fixed-top {
+  top: 28px !important;
+}
+.center-content {
+  width: 960px;
+  margin: 0 auto;
+}
+.screen-reader-text {
+  display: none;
+}
+.navbar .brand {
+  margin: 30px 0 10px;
+  padding: 0;
+}
+h1.site-title a {
+  color: #ffffff;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+h2.site-description {
+  color: #484848;
+}
+#masthead {
+  background: #282828;
+  border-bottom: 5px solid #242424;
+}
+#primary-nav ul.menu > li.menu-item {
+  display: inline;
+  background: url('img/white-slashes.png') right center no-repeat !important;
+  padding-right: 14px;
+}
+#primary-nav ul.menu > li.menu-item.searchform {
+  background: none!important;
+  padding-right: 0px;
+  color: #fff;
+  position: relative;
+}
+#primary-nav ul.menu > li.menu-item.searchform form {
+  display: inline;
+}
+#primary-nav ul.menu > li.menu-item.searchform form #search-fields {
+  position: absolute;
+  display: none;
+  right: 28px;
+}
+#primary-nav ul.menu > li.menu-item.searchform form #search-fields label {
+  display: none;
+}
+#primary-nav ul.menu > li.menu-item.searchform form #search-fields input {
+  width: 100%;
+}
+#primary-nav ul.menu > li.menu-item.searchform form fieldset {
+  display: inline;
+}
+#primary-nav ul.menu > li.menu-item a {
+  padding: 12px 10px 12px 0;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+}
+#primary-nav ul.menu > li.menu-item a:hover {
+  color: #08c;
+}
+#main {
+  margin-top: 98px;
+}
+#content {
+  margin: 20px 0 20px 330px;
+}
+#colophon .site-info {
+  margin-left: 330px;
+  background: #282828;
+  padding: 20px;
+}
+#secondary {
+  padding-top: 20px;
+  background: -moz-linear-gradient(45deg, #020031 0%, #6d3353 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #020031), color-stop(100%, #6d3353));
+  background: -webkit-linear-gradient(45deg, #020031 0%, #6d3353 100%);
+  background: -o-linear-gradient(45deg, #020031 0%, #6d3353 100%);
+  background: -ms-linear-gradient(45deg, #020031 0%, #6d3353 100%);
+  background: linear-gradient(45deg, #020031 0%, #6d3353 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#020031', endColorstr='#6d3353', GradientType=1);
+  -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.2), inset 0 -3px 7px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.2), inset 0 -3px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.2), inset 0 -3px 7px rgba(0, 0, 0, 0.2);
+  width: 310px;
+}
+#scroll-top {
+  background: #282828;
+  margin: 10px;
+  padding: 6px 10px;
+}
+#scroll-top a {
+  color: #666666;
+  font-size: 30px;
+}
+#scroll-top a:hover {
+  color: #ffffff;
+}
